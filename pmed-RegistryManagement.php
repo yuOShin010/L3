@@ -45,7 +45,7 @@
     <header id="header" class="header fixed-top d-flex align-items-center">
 
         <div class="d-flex align-items-center justify-content-between">
-            <a href="./Pmed.html" class="logo d-flex align-items-center">
+            <a href="./Pmed.php" class="logo d-flex align-items-center">
                 <img src="assets/img/logo.png" alt="">
                 <span class="d-none d-lg-block">Quality Assurance</span>
             </a>
@@ -228,8 +228,8 @@
                     <!-- End Profile Iamge Icon -->
 
                     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
-                        <li class="dropdown-header">
-                            <h6>Doc. Cha</h6>
+                        <li class="dropdown-header d-flex">
+                            <h4> <img src="./assets/img/favicon.png" alt="Profile" class="rounded-circle"> Doc. Cha</h4>
                             <span>Accreditation Head</span>
                         </li>
                         <li>
@@ -237,7 +237,7 @@
                         </li>
 
                         <li>
-                            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                            <a class="dropdown-item d-flex align-items-center" href="pmed-userAccount.php">
                                 <i class="bi bi-person"></i>
                                 <span>My Profile</span>
                             </a>
@@ -247,7 +247,7 @@
                         </li>
 
                         <li>
-                            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                            <a class="dropdown-item d-flex align-items-center" href="pmed-userAccount.php">
                                 <i class="bi bi-gear"></i>
                                 <span>Account Settings</span>
                             </a>
@@ -297,34 +297,34 @@
                 <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 
                     <li class="nav-item">
-                        <a href="./pmed-dashboard.html">
+                        <a href="./pmed-dashboard.php">
                             <i class="bi bi-circle"></i><span>Dashboard</span>
                         </a>
                     </li>
                     <!-- End Dashboard Nav -->
 
                     <li>
-                        <a class="nav-link " href="./pmed-RegistryManagement.html">
+                        <a class="nav-link " href="./pmed-RegistryManagement.php">
                             <i class="bi bi-grid"></i><span>Registry Management</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./pmed-distributeManagement.html">
+                        <a href="./pmed-distributeManagement.php">
                             <i class="bi bi-circle"></i><span>Distribute Management</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./pmed-validation.html">
+                        <a href="./pmed-validation.php">
                             <i class="bi bi-circle"></i><span>Validation</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./pmed-history.html">
+                        <a href="./pmed-history.php">
                             <i class="bi bi-circle"></i><span>History</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./audit-trail.html">
+                        <a href="./audit-trail.php">
                             <i class="bi bi-circle"></i><span>Audit Trail</span>
                         </a>
                     </li>
@@ -343,7 +343,7 @@
             <h1>Registry Management </h1>
             <nav>
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="./Pmed.html">Quality Assurance Department</a></li>
+                    <li class="breadcrumb-item"><a href="./Pmed.php">Quality Assurance Department</a></li>
                     <li class="breadcrumb-item active">Registry Management</li>
                 </ol>
             </nav>
@@ -393,13 +393,13 @@
                                                             <!-- input box -->
                                                             <div class="form-group p-4">
                                                                 <div class="row">
-                                                                    <div class="col-md-6">
+                                                                    <div class="col-md-12">
                                                                         <label class="col-form-label">Instrument:</label>
                                                                         <input title="Setting the title of survey instrument" type="text" class="form-control w-100" placeholder="Title">
                                                                     </div>
 
-                                                                    <div class="col-md-6">
-                                                                        <!-- Dropdown Section for add icon -->
+                                                                    <!-- Dropdown Section for add icon -->
+                                                                    <!-- <div class="col-md-6">
                                                                         <label class="col-form-label">Assign Course:</label>
                                                                         <div class="dropdown">
                                                                             <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="CourseList" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false"> List of Courses</button>
@@ -427,8 +427,8 @@
                                                                                 </table>
                                                                             </div>
                                                                         </div>
-                                                                        <!-- end of Dropdown section -->
-                                                                    </div>
+                                                                    </div> -->
+                                                                    <!-- end of Dropdown section -->
                                                                 </div>
 
                                                                 <label class="col-form-label">Instrument:</label>
@@ -483,7 +483,7 @@
                                                                 <!-- EDIT SECTION -->
                                                                 <div class="modal-body">
                                                                     <form>
-                                                                        <div class="dropdown">
+                                                                        <!-- <div class="dropdown">
                                                                             <button class="btn btn-outline-secondary dropdown-toggle w-75" type="button" id="CourseList" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false"> List of Courses</button>
 
                                                                             <div class="dropdown-menu p-4 w-75" aria-labelledby="CourseList">
@@ -509,7 +509,7 @@
                                                                                 </table>
 
                                                                             </div>
-                                                                        </div>
+                                                                        </div> -->
                                                                         <!-- End of Dropdown -->
 
                                                                         <!-- INPUT SECTION -->
@@ -586,7 +586,7 @@
                                                                 <!-- EDIT SECTION -->
                                                                 <div class="modal-body">
                                                                     <form>
-                                                                        <div class="dropdown">
+                                                                        <!-- <div class="dropdown">
                                                                             <button class="btn btn-outline-secondary dropdown-toggle w-75" type="button" id="CourseList" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false"> List of Courses</button>
 
                                                                             <div class="dropdown-menu p-4 w-75" aria-labelledby="CourseList">
@@ -612,7 +612,7 @@
                                                                                 </table>
 
                                                                             </div>
-                                                                        </div>
+                                                                        </div> -->
                                                                         <!-- End of Dropdown -->
 
                                                                         <!-- INPUT SECTION -->
@@ -689,7 +689,7 @@
                                                                 <!-- EDIT SECTION -->
                                                                 <div class="modal-body">
                                                                     <form>
-                                                                        <div class="dropdown">
+                                                                        <!-- <div class="dropdown">
                                                                             <button class="btn btn-outline-secondary dropdown-toggle w-75" type="button" id="CourseList" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false"> List of Courses</button>
 
                                                                             <div class="dropdown-menu p-4 w-75" aria-labelledby="CourseList">
@@ -715,7 +715,7 @@
                                                                                 </table>
 
                                                                             </div>
-                                                                        </div>
+                                                                        </div> -->
                                                                         <!-- End of Dropdown -->
 
                                                                         <!-- INPUT SECTION -->

@@ -43,7 +43,7 @@
     <header id="header" class="header fixed-top d-flex align-items-center">
 
         <div class="d-flex align-items-center justify-content-between">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="index.php" class="logo d-flex align-items-center">
                 <img src="assets/img/logo.png" alt="">
                 <span class="d-none d-lg-block">Quality Assurance</span>
             </a>
@@ -294,34 +294,34 @@
                 <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 
                     <li class="nav-item">
-                        <a class="nav-link " href="./pmed-dashboard.html">
+                        <a class="nav-link " href="./pmed-dashboard.php">
                             <i class="bi bi-grid"></i><span>Dashboard</span>
                         </a>
                     </li>
                     <!-- End Dashboard Nav -->
 
                     <li>
-                        <a href="./pmed-RegistryManagement.html">
+                        <a href="./pmed-RegistryManagement.php">
                             <i class="bi bi-circle"></i><span>Registry Management</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./pmed-distributeManagement.html">
+                        <a href="./pmed-distributeManagement.php">
                             <i class="bi bi-circle"></i><span>Distribute Management</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./pmed-validation.html">
+                        <a href="./pmed-validation.php">
                             <i class="bi bi-circle"></i><span>Validation</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./pmed-history.html">
+                        <a href="./pmed-history.php">
                             <i class="bi bi-circle"></i><span>History</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./audit-trail.html">
+                        <a href="./audit-trail.php">
                             <i class="bi bi-circle"></i><span>Audit Trail</span>
                         </a>
                     </li>
@@ -339,7 +339,7 @@
             <h1>Dashboard</h1>
             <nav>
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="./Pmed.html">Quality Assurance Department</a></li>
+                    <li class="breadcrumb-item"><a href="./Pmed.php">Quality Assurance Department</a></li>
                     <li class="breadcrumb-item active">Dashboard</li>
                 </ol>
             </nav>

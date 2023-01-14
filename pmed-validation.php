@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
 
-    <title>Distribute Management</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -43,7 +44,7 @@
     <header id="header" class="header fixed-top d-flex align-items-center">
 
         <div class="d-flex align-items-center justify-content-between">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="./Pmed.php" class="logo d-flex align-items-center">
                 <img src="assets/img/logo.png" alt="">
                 <span class="d-none d-lg-block">Quality Assurance</span>
             </a>
@@ -291,37 +292,38 @@
                 <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
                     <i class="bi bi-menu-button-wide"></i><span>Quality Assurance Department</span><i class="bi bi-chevron-down ms-auto"></i>
                 </a>
+
                 <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 
                     <li class="nav-item">
-                        <a href="./pmed-dashboard.html">
+                        <a href="./pmed-dashboard.php">
                             <i class="bi bi-circle"></i><span>Dashboard</span>
                         </a>
                     </li>
                     <!-- End Dashboard Nav -->
 
                     <li>
-                        <a href="./pmed-RegistryManagement.html">
+                        <a href="./pmed-RegistryManagement.php">
                             <i class="bi bi-circle"></i><span>Registry Management</span>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="./pmed-distributeManagement.html">
-                            <i class="bi bi-grid"></i><span>Distribute Management</span>
+                        <a href="./pmed-distributeManagement.php">
+                            <i class="bi bi-circle"></i><span>Distribute Management</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./pmed-validation.html">
-                            <i class="bi bi-circle"></i><span>Validation</span>
+                        <a class="nav-link" href="./pmed-validation.php">
+                            <i class="bi bi-grid"></i><span>Validation</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./pmed-history.html">
+                        <a href="./pmed-history.php">
                             <i class="bi bi-circle"></i><span>History</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./audit-trail.html">
+                        <a href="./audit-trail.php">
                             <i class="bi bi-circle"></i><span>Audit Trail</span>
                         </a>
                     </li>
@@ -333,21 +335,42 @@
     </aside>
     <!-- End Sidebar-->
 
-    <main id="main" class="main">
 
+    <!-- main -->
+    <main id="main" class="main">
         <div class="pagetitle">
-            <h1>Distribure Management</h1>
+            <h1>Validation</h1>
             <nav>
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="./Pmed.html">Quality Assurance Department</a></li>
-                    <li class="breadcrumb-item active">Distribute Management</li>
+                    <li class="breadcrumb-item"><a href="./Pmed.php">Quality Assurance Department</a></li>
+                    <li class="breadcrumb-item active">Validation</li>
                 </ol>
             </nav>
         </div>
         <!-- End Page Title -->
-
     </main>
-    <!-- End #main -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">

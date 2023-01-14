@@ -2,11 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Audit Trail</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+    <title>Distribute Management</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -44,7 +43,7 @@
     <header id="header" class="header fixed-top d-flex align-items-center">
 
         <div class="d-flex align-items-center justify-content-between">
-            <a href="./Pmed.html" class="logo d-flex align-items-center">
+            <a href="index.php" class="logo d-flex align-items-center">
                 <img src="assets/img/logo.png" alt="">
                 <span class="d-none d-lg-block">Quality Assurance</span>
             </a>
@@ -236,7 +235,7 @@
                         </li>
 
                         <li>
-                            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                            <a class="dropdown-item d-flex align-items-center" href="pmed-userAccount.php">
                                 <i class="bi bi-person"></i>
                                 <span>My Profile</span>
                             </a>
@@ -246,7 +245,7 @@
                         </li>
 
                         <li>
-                            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                            <a class="dropdown-item d-flex align-items-center" href="pmed-userAccount.php">
                                 <i class="bi bi-gear"></i>
                                 <span>Account Settings</span>
                             </a>
@@ -292,39 +291,38 @@
                 <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
                     <i class="bi bi-menu-button-wide"></i><span>Quality Assurance Department</span><i class="bi bi-chevron-down ms-auto"></i>
                 </a>
-
                 <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 
                     <li class="nav-item">
-                        <a href="./pmed-dashboard.html">
+                        <a href="./pmed-dashboard.php">
                             <i class="bi bi-circle"></i><span>Dashboard</span>
                         </a>
                     </li>
                     <!-- End Dashboard Nav -->
 
                     <li>
-                        <a href="./pmed-RegistryManagement.html">
+                        <a href="./pmed-RegistryManagement.php">
                             <i class="bi bi-circle"></i><span>Registry Management</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./pmed-distributeManagement.html">
-                            <i class="bi bi-circle"></i><span>Distribute Management</span>
+                        <a class="nav-link" href="./pmed-distributeManagement.php">
+                            <i class="bi bi-grid"></i><span>Distribute Management</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./pmed-validation.html">
+                        <a href="./pmed-validation.php">
                             <i class="bi bi-circle"></i><span>Validation</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./pmed-history.html">
+                        <a href="./pmed-history.php">
                             <i class="bi bi-circle"></i><span>History</span>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="./audit-trail.html">
-                            <i class="bi bi-grid"></i><span>Audit Trail</span>
+                        <a href="./audit-trail.php">
+                            <i class="bi bi-circle"></i><span>Audit Trail</span>
                         </a>
                     </li>
                 </ul>
@@ -335,42 +333,21 @@
     </aside>
     <!-- End Sidebar-->
 
-
-    <!-- main -->
     <main id="main" class="main">
+
         <div class="pagetitle">
-            <h1>Audit Trail</h1>
+            <h1>Distribure Management</h1>
             <nav>
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="./Pmed.html">Quality Assurance Department</a></li>
-                    <li class="breadcrumb-item active">Audit Trail</li>
+                    <li class="breadcrumb-item"><a href="./Pmed.php">Quality Assurance Department</a></li>
+                    <li class="breadcrumb-item active">Distribute Management</li>
                 </ol>
             </nav>
         </div>
         <!-- End Page Title -->
+
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- End #main -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">

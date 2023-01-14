@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
 
-    <title>Quality Assurance-PMED</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -34,7 +35,7 @@
   * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    ======================================================== -->
 </head>
 
 <body>
@@ -43,9 +44,9 @@
     <header id="header" class="header fixed-top d-flex align-items-center">
 
         <div class="d-flex align-items-center justify-content-between">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="./Pmed.php" class="logo d-flex align-items-center">
                 <img src="assets/img/logo.png" alt="">
-                <span class="d-none d-lg-block">Admin</span>
+                <span class="d-none d-lg-block">Quality Assurance</span>
             </a>
             <i class="bi bi-list toggle-sidebar-btn"></i>
         </div>
@@ -89,7 +90,9 @@
                         <li class="notification-item">
                             <i class="bi bi-exclamation-circle text-warning"></i>
                             <div>
-
+                                <h4>Lorem Ipsum</h4>
+                                <p>Quae dolorem earum veritatis oditseno</p>
+                                <p>30 min. ago</p>
                             </div>
                         </li>
 
@@ -100,7 +103,9 @@
                         <li class="notification-item">
                             <i class="bi bi-x-circle text-danger"></i>
                             <div>
-
+                                <h4>Atque rerum nesciunt</h4>
+                                <p>Quae dolorem earum veritatis oditseno</p>
+                                <p>1 hr. ago</p>
                             </div>
                         </li>
 
@@ -111,7 +116,9 @@
                         <li class="notification-item">
                             <i class="bi bi-check-circle text-success"></i>
                             <div>
-
+                                <h4>Sit rerum fuga</h4>
+                                <p>Quae dolorem earum veritatis oditseno</p>
+                                <p>2 hrs. ago</p>
                             </div>
                         </li>
 
@@ -122,7 +129,9 @@
                         <li class="notification-item">
                             <i class="bi bi-info-circle text-primary"></i>
                             <div>
-
+                                <h4>Dicta reprehenderit</h4>
+                                <p>Quae dolorem earum veritatis oditseno</p>
+                                <p>4 hrs. ago</p>
                             </div>
                         </li>
 
@@ -158,7 +167,7 @@
 
                         <li class="message-item">
                             <a href="#">
-                                <img src="assets/img/logo.png" alt="" class="rounded-circle">
+                                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
                                 <div>
                                     <h4>BSIT Dept.
                                         <Sent you a message/h4>
@@ -173,7 +182,7 @@
 
                         <li class="message-item">
                             <a href="#">
-                                <img src="assets/img/logo.png" alt="" class="rounded-circle">
+                                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
                                 <div>
                                     <h4>BSCRIM Dept.</h4>
                                     <p>The file you submitted to us is complete.</p>
@@ -187,7 +196,7 @@
 
                         <li class="message-item">
                             <a href="#">
-                                <img src="assets/img/logo.png" alt="" class="rounded-circle">
+                                <img src="assets/img/messages-3.jpg" alt="" class="rounded-circle">
                                 <div>
                                     <h4>EDUC Dept.</h4>
                                     <p>My file was submitted last wenesday.</p>
@@ -212,7 +221,7 @@
                 <li class="nav-item dropdown pe-3">
 
                     <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-                        <img src="assets/img/logo.png" alt="Profile" class="rounded-circle">
+                        <img src="./assets/img/favicon.png" alt="Profile" class="rounded-circle">
                         <span class="d-none d-md-block dropdown-toggle ps-2">Doc. Cha</span>
                     </a>
                     <!-- End Profile Iamge Icon -->
@@ -283,37 +292,38 @@
                 <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
                     <i class="bi bi-menu-button-wide"></i><span>Quality Assurance Department</span><i class="bi bi-chevron-down ms-auto"></i>
                 </a>
+
                 <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 
                     <li class="nav-item">
-                        <a href="./pmed-dashboard.html">
+                        <a href="./pmed-dashboard.php">
                             <i class="bi bi-circle"></i><span>Dashboard</span>
                         </a>
                     </li>
                     <!-- End Dashboard Nav -->
 
                     <li>
-                        <a href="./pmed-RegistryManagement.html">
+                        <a href="./pmed-RegistryManagement.php">
                             <i class="bi bi-circle"></i><span>Registry Management</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./pmed-distributeManagement.html">
+                        <a href="./pmed-distributeManagement.php">
                             <i class="bi bi-circle"></i><span>Distribute Management</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./pmed-validation.html">
-                            <i class="bi bi-circle"></i><span>Validation</span>
+                        <a href="./pmed-validation.php">
+                            <i class="bi bi-cicle"></i><span>Validation</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./pmed-history.html">
-                            <i class="bi bi-circle"></i><span>History</span>
+                        <a class="nav-link " href="./pmed-history.php">
+                            <i class="bi bi-grid"></i><span>History</span>
                         </a>
                     </li>
                     <li>
-                        <a href="./audit-trail.html">
+                        <a href="./audit-trail.php">
                             <i class="bi bi-circle"></i><span>Audit Trail</span>
                         </a>
                     </li>
@@ -325,95 +335,20 @@
     </aside>
     <!-- End Sidebar-->
 
+
     <!-- main -->
     <main id="main" class="main">
-        <div class="pagetitle p-2">
-            <h1>Quality Assurance</h1>
+        <div class="pagetitle">
+            <h1>History</h1>
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="./Pmed.php">Quality Assurance Department</a></li>
+                    <li class="breadcrumb-item active">History</li>
+                </ol>
+            </nav>
         </div>
         <!-- End Page Title -->
-
-        <!-- card -->
-        <section class="section">
-            <div class="row">
-                <!-- BSIT DEPARTMENT card -->
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body bg- shadow rounded">
-                            <h5 class="card-title">BSIT DEPARTMENT</h5>
-                        </div>
-                    </div>
-                </div>
-                <!-- end BSIT card -->
-
-                <!-- BSCRIM card -->
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body bg-danger-light shadow rounded">
-                            <h5 class="card-title">BSCRIM DEPARTMENT</h5>
-                        </div>
-                    </div>
-                </div>
-                <!-- end BSRIM card -->
-
-                <!-- first card -->
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body bg-success-light shadow rounded">
-                            <h5 class="card-title">EDUC DEPARTMENT</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end first row -->
-
-            <div class="row bg-gradient mt-3 shadow-lg">
-                <div class="car p-2">
-                    <div class="car-body">
-                        <h5 class="card-title">Department History</h5>
-                        <table class="table table-success">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Section</th>
-                                    <th scope="col">Name</th>
-                                    <th scope="col">Age</th>
-                                    <th scope="col">Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">Bsit 4101</td>
-                                        <td scope="row">Laurito, Arjay A.</td>
-                                        <td scope="row">23 years old</td>
-                                        <td scope="row">
-                                            <button class="btn btn-sm btn-primary">Udpate</button>
-                                            <button class="btn btn-sm btn-danger">Delete</button>
-                                        </td>
-
-                                </tr>
-                                <tr>
-                                    <th scope="row">Bsit 4101</td>
-                                        <td scope="row">Laurito, Arjay A.</td>
-                                        <td scope="row">23 years old</td>
-                                        <td scope="row">
-                                            <button class="btn btn-sm btn-primary">Udpate</button>
-                                            <button class="btn btn-sm btn-danger">Delete</button>
-                                        </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <button class="btn btn-outline-success">Save</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
-
-
-
 
 
 
